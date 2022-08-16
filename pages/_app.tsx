@@ -1,4 +1,5 @@
 import '../styles/globals.css'
+import '@fontsource/readex-pro'
 import type { AppProps } from 'next/app'
 import { QueryClient, QueryClientProvider } from 'react-query'
 
