@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import Image from 'next/image'
 import '@fontsource/readex-pro'
 import { NavBar } from '../components'
 import { Card } from '../components/Card/Card'
@@ -21,7 +22,7 @@ const Home: NextPage = () => {
 				<section>
 					<h1>List of Algorand Standard Assets on ASAlytics</h1>
 					{isLoading ? (
-						<img src='/infinity.gif' alt='loader' className='loader' />
+						<Image src='/infinity.gif' alt='loader' height={65} width={65} />
 					) : (
 						<>
 							<div>

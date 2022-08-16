@@ -72,8 +72,6 @@ section > div {
 }
 
 .loader {
-	height: 7rem;
-	width: 7rem;
 	display: block;
 	margin-inline: auto;
 	margin-top: 8rem;
