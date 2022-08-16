@@ -1,4 +1,37 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![Coding Test (1).png](<https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0a694481-33d0-4022-b5ec-0b5370031009/Coding_Test_(1).png>)
+
+- Create page with UI like the image above, you can also check the Figma board for the design [https://www.figma.com/file/LvSfu5VicspNx58c3EK2el/Untitled?node-id=1%3A1174](https://www.figma.com/file/LvSfu5VicspNx58c3EK2el/Untitled?node-id=1%3A1174)
+
+- Connect to GraphQL server. API is located at [https://analytics-api.herokuapp.com/analytics](https://analytics-api.herokuapp.com/analytics)
+
+- Explore API via GraphQL interface, and try to come up with query you should use to fetch needed data. You are to display all ASAs on the UI.
+
+- Would be awesome if you use React (Nextjs), TypeScript and GraphQL client (React Query etc)
+
+- Push your solution to Github, deploy on your favourite Hosting Provider (We use Netlify at ASAlytics) and send the links to hello@asalytics.ai.
+
+# Bonus Points:
+
+- Use Typescript
+- Use Nextjs
+- Structured code (Architectural)
+- Add loading indicators when data are being fetched
+- Frontend testing, it would be awesome to use Jest, React Testing Library etc
+
+# Colors:
+
+- #F2FBF6 (Page background-color)
+- #B7BECC (Card border-color)
+- #6FD791 (Available Label Background)
+- #BC3131 - (Unavailable Label Background)
+- #000000 - Black
+- #FFFFFF - White
+
+Font: Readex Pro, [https://fonts.google.com/betterspecimen/Readex+Pro?query=Readex+Pro](https://fonts.google.com/betterspecimen/Readex+Pro?query=Readex+Pro)
+
+# Glossary
+
+- ASA - Algorand Standard Asset on the Algorand Protocol
 
 ## Getting Started
 

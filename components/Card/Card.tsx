@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import { FC } from 'react'
 
 type Props = {
@@ -11,10 +12,12 @@ export const Card: FC<Props> = ({ data }) => {
 		<>
 			{data?.map((dataItem: any) => (
 				<div className='card' key={dataItem?.assetId}>
-					<img
+					<Image
 						src={dataItem?.logo ? dataItem?.logo : '/bitcoin-ic.png'}
 						alt='product-logo'
 						className='card-logo'
+						height={50}
+						width={50}
 					/>
 					<h3 className='card-title'>{dataItem.name}</h3>
 					{dataItem?.available === true ? (
