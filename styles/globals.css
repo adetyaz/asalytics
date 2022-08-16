@@ -89,11 +89,6 @@ section > div {
 	align-items: center;
 }
 
-.card-logo {
-	height: 3rem;
-	width: 3rem;
-}
-
 .card-title {
 	font-size: 1.5rem;
 	font-weight: 700;

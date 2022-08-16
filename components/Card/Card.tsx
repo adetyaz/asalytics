@@ -15,9 +15,8 @@ export const Card: FC<Props> = ({ data }) => {
 					<Image
 						src={dataItem?.logo ? dataItem?.logo : '/bitcoin-ic.png'}
 						alt='product-logo'
-						className='card-logo'
-						height={50}
-						width={50}
+						height={35}
+						width={35}
 					/>
 					<h3 className='card-title'>{dataItem.name}</h3>
 					{dataItem?.available === true ? (
