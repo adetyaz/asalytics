@@ -24,7 +24,7 @@ const Home: NextPage = () => {
 				<section>
 					<h1>List of Algorand Standard Assets on ASAlytics</h1>
 					{isLoading ? (
-						<div className='loader'>
+						<div className='loader' data-testid='loader'>
 							<Image src='/infinity.gif' alt='loader' height={75} width={75} />
 						</div>
 					) : (

@@ -6,8 +6,6 @@ type Props = {
 }
 
 export const Card: FC<Props> = ({ data }) => {
-	console.log(data)
-
 	return (
 		<>
 			{data?.map((dataItem: any) => (
