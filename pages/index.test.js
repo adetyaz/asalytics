@@ -10,5 +10,4 @@ test('The Home page should render', async () => {
 	)
 
 	render(<Home />, { wrapper })
-	// await screen.getByTestId('loader').toBeVisible()
 })
